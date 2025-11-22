@@ -38,7 +38,7 @@ header {
 }
 .area__titulo {
     font-size: 40px;
-    color: white; <h1>
+    color: white; 
     margin-bottom: 20px;
 }
 .area-principal {
@@ -76,7 +76,7 @@ header {
     padding: 10px 20px;
     margin-right: 10px;
     cursor: pointer;
-    color: black
+    color: black;
     color: yellow;
     background-color: yellow;
     border-top-left-radius: 50px;

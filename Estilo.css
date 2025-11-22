@@ -1,10 +1,17 @@
-*{background-color: #0000007a;}
+*{background-color: #00000067;}
 header {    
     color: yellow; 
     position: relative;
     width: 100%; 
     padding: 20px; 
 }
+.nav_logo {
+    font-size: 15px;
+    position: fixed;
+    top: 5px;
+    font-weight: bold;
+}
+
 .nav__links {
     list-style: none;
     display: flex;
@@ -13,4 +20,19 @@ header {
     gap: 20px;
     padding: 0;
     margin: 0;
+}
+.nav_actions {
+    position: fixed;
+    right: 20px;
+    top: 28px;
+}
+.area-principal {
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    height: 80vh;
+    color: yellow;
+    text-align: left;
+    padding: 30px;
+    flex-direction: column;
 }

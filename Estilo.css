@@ -95,3 +95,138 @@ header {
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
 }
+.barbers_title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: gold;
+    font-size: 40px;
+    font-style: oblique;
+  
+
+   
+}
+
+
+
+
+.barbeiros__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.barbeiro-card__imagem{
+
+    width: 70%;
+
+    object-fit: cover;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    display: flex;
+    gap: 10px;
+
+}
+
+
+
+.barbeiros__grid {
+  border: 2px solid black; /* Adiciona uma borda preta de 2px */
+  padding: 10px; /* Adiciona um espaçamento interno para que o conteúdo não fique colado na borda */
+  background-color: rgba(0, 0, 0, 0.483);
+}
+.barbeiro-card__name {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+    color: white;
+}
+.barbeiro-card__shop{
+    font-size: 25px;
+    margin: 5px 0;
+    color: white;
+}
+.barbeiro-card__imagem{
+    font-size: 25px;
+    margin: 5px 0;
+    color: white;
+}
+.barbeiro-card__localizacao {
+    font-size: 25px;
+    color: white;
+}
+.barbeiro-card_status {
+    font-size: 20px;
+    color: rgb(154, 193, 223);
+    font-weight: bold;
+}
+.barbeiro-card__status{
+    font-size: 20px;
+    color: rgb(154, 193, 223);
+    font-weight: bold;
+}
+.barbeiro-card__status{
+    font-size: 20px;
+    color: rgb(154, 193, 223);
+    font-weight: bold;
+}
+.passo_titulo {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: rgb(22, 21, 20);
+    font-style: oblique;
+    text-align: center;
+}
+.passo__item{
+    font-size: 20px;
+    color: rgb(22, 21, 20);
+    margin-bottom: 10px;
+    text-align: center;
+}
+.como-criar-portfolio {
+    font-size: 20px;
+    color: rgb(22, 21, 20);
+    text-align: center;
+}
+
+.passo__item1 {
+    font-size: 20px;
+    color: rgb(22, 21, 20);
+    margin-bottom: 10px;
+    text-align: center;
+}
+.passo__item2 {
+    font-size: 20px;
+    color: rgb(22, 21, 20);
+    margin-bottom: 10px;
+    text-align: center;
+    
+
+}
+footer {
+  color: gold;
+  padding: 50px;
+  font: 16px arial, sans-serif;
+  text-align: center;
+}
+
+.incentivo-cadastro {
+  text-align: center;
+  padding: 30px;
+  font-size: 20px;
+  color: black;
+}
+.header,
+.area-principal {
+  background-image: url("barber.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}

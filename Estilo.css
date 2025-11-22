@@ -1,4 +1,4 @@
-*{background-color: #00000067;}
+*{background-color: #525252;}
 header {    
     color: yellow; 
     position: relative;
@@ -6,7 +6,7 @@ header {
     padding: 20px; 
 }
 .nav_logo {
-    font-size: 15px;
+    font-size: 20px;
     position: absolute;
     top: 5px;
     font-weight: bold;
@@ -18,22 +18,27 @@ header {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    padding: 0;
-    margin: 0;
+    font-size: 20px;
+    padding: 50;
+    margin: 20px;
 }
 .nav__login {
     position: absolute;
-    right: 200px;
+    right: 215px;
+    font-size: 20px;
     top: 28px;
+    margin: 19px;
 }
 .nav_signup {
     position: absolute;
     right: 80px;
+    font-size: 20px;
     top: 28px;
+    margin: 19px;
 }
 .area__titulo {
     font-size: 40px;
-    color: white;<h1>
+    color: white; <h1>
     margin-bottom: 20px;
 }
 .area-principal {
@@ -43,7 +48,7 @@ header {
     height: 80vh;
     color: yellow;
     text-align: left;
-    padding: 90px;
+    padding: 200px;
     flex-direction: column-reverse;
 }
 .area_subtitulo {

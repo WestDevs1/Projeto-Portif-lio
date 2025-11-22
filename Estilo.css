@@ -7,7 +7,7 @@ header {
 }
 .nav_logo {
     font-size: 15px;
-    position: fixed;
+    position: absolute;
     top: 5px;
     font-weight: bold;
 }
@@ -21,18 +21,72 @@ header {
     padding: 0;
     margin: 0;
 }
-.nav_actions {
-    position: fixed;
-    right: 20px;
+.nav__login {
+    position: absolute;
+    right: 200px;
     top: 28px;
+}
+.nav_signup {
+    position: absolute;
+    right: 80px;
+    top: 28px;
+}
+.area__titulo {
+    font-size: 40px;
+    color: white;<h1>
+    margin-bottom: 20px;
 }
 .area-principal {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: right;
     height: 80vh;
     color: yellow;
     text-align: left;
-    padding: 30px;
-    flex-direction: column;
+    padding: 90px;
+    flex-direction: column-reverse;
+}
+.area_subtitulo {
+    font-size: 25px;
+    color: white
+}
+.area__imagem-wrapper {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    height: 80vh;
+    overflow: hidden;
+} 
+.area_botoes{       
+    margin: top 100px;
+    color: yellow;
+    height: 2px;
+    text-decoration: white;
+    border-radius: 5px;
+    background-color: transparent;     
+    font-size: 16px;
+}
+.area__btn--principal {
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: black
+    color: yellow;
+    background-color: yellow;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.area__btn--secundario {
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: yellow;
+    background-color: rgba(255, 255, 255, 0.664);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
 }

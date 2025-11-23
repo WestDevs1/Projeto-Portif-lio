@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - BarberHub</title>
+    <link rel="stylesheet" href="login-estilizado.css">
+</head>
+<body>
+    <!--Área navbar do site ( igual a area principal )-->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav_logo">
+                <h2>BarberHub</h2>
+            </div>
+
+            <ul class="nav__links">
+                <li><a href="#" class="nav__link">Explorar Barbeiros</a></li>
+                <li><a href="#" class="nav__link">Como funciona</a></li>
+            </ul>
+
+            <div class="nav_actions">
+                <a href="#" class="nav__login">Entrar</a>
+                <a href="#" class="nav_signup">Criar Portfólio</a>         
+            </div>
+        </nav>
+    </header>
+
+    <!--Área de login/cadastro do site-->
+    <section class="area__login">
+        <div class="login__titulo">
+            <h2>Bem-vindo de volta!</h2>
+        </div>
+
+        <div class="login__subtitulo">
+            <p>Entre na sua conta</p>
+        </div>
+        
+        <form>
+            <div class="input-email__login">
+                <label for="email">Email:</label>
+                <input 
+                id="email"
+                nome="email"
+                type="email"
+                class="input-email__login"
+                placeholder="Seu melhor email"
+                required
+                >
+            </div>
+
+            <div class="input-senha__login">
+                <label for="senha">Senha:</label>
+                <input
+                id="senha"
+                name="senha"
+                type="password"
+                class="input-senha__login"
+                placeholder="Crie uma senha"
+                required
+                minlength="5"
+                pattern="(?=.*[0-9])(?=.*[A-Z]).{5,}"
+                title="Sua senha deve ter no minímo 5 caracteres, uma letra maíuscula e um número."
+                >
+            </div>
+
+            <div class="btn-entrar__login">
+                <button>Entrar</button>
+            </div>
+
+            <div>
+                <a href="#" class="caminho-registro__cadastro">Não tem uma conta? Criar uma agora</a>
+            </div>
+
+        </form>
+    </section>
+</body>
+</html>

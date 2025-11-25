@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #0d0d0d;
+    color: #fff;
+}
+
+a[href="../area-principal/Esqueleto.html"] {
+    color: #c6a567;
+    margin: 20px;
+    display: inline-block;
+}
+
+.header {
+    width: 100%;
+    background-color: #0d0d0d;
+    padding: 20px 40px;
+    border-bottom: 1px solid #1a1a1a;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_logo h2 {
+    color: #c6a567;
+    font-weight: 600;
+}
+
+.nav__links {
+    list-style: none;
+    display: flex;
+    gap: 35px;
+}
+
+.nav__link {
+    color: #ccc;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav__link:hover {
+    color: #fff;
+}
+
+.nav_actions a {
+    margin-left: 25px;
+    padding: 8px 18px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav__login {
+    color: #fff;
+}
+
+.nav_signup {
+    background-color: #c6a567;
+    color: #000;
+    font-weight: 500;
+}
+
+.nav_signup:hover {
+    background-color: #e8bf6a;
+}
+
+.explorarbarbeiros__menu {
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+.explorarbarbeiros__titulo h2 {
+    color: #c6a567;
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+
+.barra-pesquisa__explorar {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.pesquisar_inserir {
+    flex: 1;
+    padding: 14px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color: #1a1a1a;
+    color: #ddd;
+}
+
+.botao-filtro {
+    padding: 12px 22px;
+    background: #1a1a1a;
+    border: 1px solid #333;
+    border-radius: 8px;
+    color: #c6a567;
+    cursor: pointer;
+}
+
+.explorarbarbeiros__filtro-classificacoes {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    background-color: #111;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.filtro-classificacoes label {
+    color: #c6a567;
+    font-weight: 500;
+}
+
+.filtro-classificacoes select {
+    background: #1a1a1a;
+    color: #ccc;
+    border: none;
+    padding: 7px 10px;
+    border-radius: 6px;
+}
+
+.explorarbarbeiros__limpar-filtros {
+    margin-left: auto;
+    padding: 8px 18px;
+    background-color: #202020;
+    border: none;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.explorarbarbeiros__barbeiros {
+    max-width: 1200px;
+    margin: 0 auto 60px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+    gap: 25px;
+}
+
+.barbeiro__card {
+    background-color: #111;
+    border: 1px solid #1f1f1f;
+    border-radius: 12px;
+    padding: 0 0 18px 0;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.barbeiro__card:hover {
+    transform: translateY(-6px);
+    border-color: #c6a567;
+}
+
+.barbeiro__imagem {
+    position: relative;
+}
+
+.barbeiro__imagem img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.avalicao {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #c6a567;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.barbeiro__informacoes {
+    padding: 15px;
+}
+
+.barbeiro__informacoes h3 {
+    margin-bottom: 5px;
+}
+
+.barbearia__loja {
+    color: #c6a567;
+    font-size: 0.9rem;
+}
+
+.desc {
+    margin-top: 10px;
+    color: #aaa;
+}
+
+.barbeiro__tags {
+    display: flex;
+    gap: 10px;
+    padding: 0 15px;
+    margin-top: 10px;
+}
+
+.barbeiro__tags span {
+    background-color: #222;
+    border: 1px solid #333;
+    color: #c6a567;
+    padding: 3px 10px;
+    border-radius: 6px;
+    font-size: 0.8rem;
+}
+
+.barbeiro__status {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 15px;
+    color: #ccc;
+    font-size: 0.9rem;
+}
+
+.barbeiro--portfolio__botao {
+    width: 90%;
+    margin: 10px auto 0 auto;
+    display: block;
+    padding: 10px 0;
+    background-color: #c6a567;
+    color: #000;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.barbeiro--portfolio__botao:hover {
+    background-color: #e8c16e;
+}
+
+.footer {
+    margin-top: 80px;
+    padding: 50px 80px;
+    background: #000;
+    color: #ccc;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-top: 1px solid #222;
+}
+
+.footer-section {
+    max-width: 250px;
+}
+
+.footer__titulo {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #ffcc59;
+}
+
+.footer-item {
+    margin-bottom: 8px;
+}
+
+.footer__copy {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    color: #777;
+    font-size: 14px;
+}

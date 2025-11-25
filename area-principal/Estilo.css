@@ -1,8 +1,5 @@
-/* ========================= */
-/*      PALETA DE CORES      */
-/* ========================= */
 :root{
-    --preto: #0d0d0d40;
+    --preto: #0d0d0d;
     --preto-medio: #1a1a1a;
     --cinza-texto: #cccccc;
     --dourado: #c9a341;
@@ -11,9 +8,6 @@
     --offwhite: #f5f5f5;
 }
 
-/* ========================= */
-/*       RESET GLOBAL         */
-/* ========================= */
 *{
     margin: 0;
     padding: 0;
@@ -26,9 +20,6 @@ body{
     color: var(--offwhite);
 }
 
-/* ========================= */
-/*       NAVBAR               */
-/* ========================= */
 .header{
     width: 100%;
     padding: 20px 50px;
@@ -91,9 +82,6 @@ body{
     background-color: var(--dourado-escuro);
 }
 
-/* ========================= */
-/*       HERO SECTION         */
-/* ========================= */
 .area-principal{
     height: 100vh;
     background: linear-gradient(to right, #000000c5, #0000005e),
@@ -148,76 +136,83 @@ body{
     color: #000;
 }
 
-/* ========================= */
-/*       COMO FUNCIONA        */
-/* ========================= */
 .como-criar-portfolio{
     text-align: center;
-    padding: 80px 20px;
-    background-color: var(--preto-medio);
+    padding: 110px 20px;
+    background-color: var(--preto);
 }
 
 .passo_titulo{
-    font-size: 45px;
-    margin-bottom: 40px;
+    font-size: 55px;
+    margin-bottom: 60px;
     color: var(--dourado);
 }
 
 .passo__container{
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 60px;
 }
 
 .passo__item{
-    width: 280px;
-    color: var(--offwhite);
+    width: 300px;
+    padding: 30px 20px;
+    background-color: var(--preto-medio);
+    border: 2px solid var(--dourado);
+    border-radius: 20px;
+    box-shadow: 0 0 15px #000;
 }
 
 .passo__item-titulo{
-    font-size: 24px;
+    font-size: 26px;
     color: var(--dourado);
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
-/* ========================= */
-/*     BARBEIROS TOP          */
-/* ========================= */
 .barbeiros{
-    padding: 70px 50px;
+    padding: 110px 50px;
 }
 
 .barbers_title{
     text-align: center;
-    font-size: 45px;
+    font-size: 55px;
+    margin-bottom: 60px;
     color: var(--dourado);
-    margin-bottom: 40px;
 }
 
 .barbeiros__grid{
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 60px;
     flex-wrap: wrap;
 }
 
 .barbeiros-card{
     background-color: var(--preto-medio);
-    border: 2px solid var(--dourado);
-    padding: 20px;
-    width: 290px;
-    border-radius: 20px;
+    width: 340px;
+    padding: 25px;
+    border-radius: 25px;
+    border: 3px solid var(--dourado);
     text-align: center;
+    box-shadow: 0 0 15px #000;
+    transition: 0.3s;
+}
+
+.barbeiros-card:hover{
+    transform: scale(1.03);
 }
 
 .barbeiro-card__imagem{
     width: 100%;
+    height: 320px;
+    object-fit: cover;
     border-radius: 20px;
 }
 
 .barbeiro-card__name{
-    font-size: 24px;
-    margin-top: 10px;
+    font-size: 26px;
+    margin-top: 15px;
+    font-weight: 700;
 }
 
 .barbeiro-card__shop,
@@ -227,15 +222,12 @@ body{
 }
 
 .barbeiro-card__status{
-    margin-top: 10px;
+    margin-top: 12px;
     color: var(--dourado);
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
 }
 
-/* ========================= */
-/*       DEPOIMENTOS          */
-/* ========================= */
 .depoimentos{
     padding: 70px 40px;
     background-color: var(--preto-medio);
@@ -287,9 +279,6 @@ body{
     margin-top: 15px;
 }
 
-/* ========================= */
-/*    INCENTIVO CADASTRO      */
-/* ========================= */
 .incentivo-cadastro{
     text-align: center;
     padding: 80px 10px;
@@ -316,9 +305,6 @@ body{
     background-color: var(--dourado-escuro);
 }
 
-/* ========================= */
-/*          FOOTER            */
-/* ========================= */
 .footer{
     padding: 60px;
     background-color: #000;

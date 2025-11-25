@@ -34,3 +34,18 @@ Funciona perfeitamente em celulares, tablets e computadores.
 🧰 Tecnologias Utilizadas
 
 - Frontend: HTML5, CSS3, JavaScript
+
+--- 
+
+🎯 Objetivo do Projeto
+
+Ajudar barbeiros a terem presença digital e fortalecerem sua marca profissional.
+Com um portfólio bem apresentado, é possível:
+
+Aumentar clientes
+
+Mostrar credibilidade
+
+Divulgar especialidades
+
+Fortalecer a marca da barbearia

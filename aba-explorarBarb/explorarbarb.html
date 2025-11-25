@@ -8,6 +8,7 @@
 </head>
 <body>
     <a href="../area-principal/Esqueleto.html">Voltar</a> 
+   
     <!--área da navbar-->
     <header class="header">
         <nav class="nav">
@@ -21,13 +22,176 @@
             </ul>
 
             <div class="nav_actions">
-                <a href="#" class="nav__login" id="btnEntrar">Entrar</a>
+                <a href="../aba-login/login.html" class="nav__login" id="btnEntrar">Entrar</a>
                 <a href="../aba-criarPortifolio/criarPortifolio.html" class="nav_signup"  id="btnCriarPortfolio">Criar Portfólio</a>
             </div>
         </nav>
     </header>
+   <!--área de pesquisa no menu principal explorar barbeiros-->
+    <section class="explorarbarbeiros__menu">
+        <div class="explorarbarbeiros__titulo">
+            <h2>Encontre o Barbeiro Perfeito</h2>
+        </div>
+        
+        <div class="barra-pesquisa__explorar">
+            <input
+            type="text"
+            class="pesquisar_inserir"
+            placeholder="Buscar por nome ou barbearia..."
+            >
 
-    <h1>Explorar Barbeiros</h1>
+            <button class="botao-filtro">
+                <span class="icone-filtro">⚲</span>
+                Filtros
+            </button>
+        </div>
+
+        <div class="explorarbarbeiros__filtro-classificacoes">
+            <div class="filtro-classificacoes">
+                <label>Cidade</label>
+                <select>
+                    <option>Todas</option>
+                    <option>Recife</option>
+                    <option>Natal</option>
+                    <option>Várzea</option>
+                </select>
+            </div>
+
+            <div class="filtro-classificacoes">
+                <label>Tipo de Corte</label>
+                <select>
+                    <option>Todos</option>
+                    <option>Fade</option>
+                    <option>Degradê</option>
+                    <option>Social</option>
+                </select>
+            </div>
+
+            <div class="filtro-classificacoes">
+                <label>Preço</label>
+                <select>
+                    <option>Todos</option>
+                    <option>Até RS30</option>
+                    <option>RS30-RS60</option>
+                    <option>Acima de RS60</option>
+                </select>
+            </div>
+
+            <div class="filtro-classificacoes">
+                <label>Avaliações Mínima</label>
+                <div class="avaliacoes-estrelas">
+                    ★ ★ ★ ★ ★
+                </div>
+            </div>
+
+            <button class="explorarbarbeiros__limpar-filtros">Limpar Filtros</button>
+        </div>
+    </section>
+
+    <!--Cards dos barbeiros no menu explorar barbeiros-->
+
+    <section class="explorarbarbeiros__barbeiros">
+        <!--Card 1-->
+        <article class="barbeiro__card">
+            <div class="barbeiro__imagem">
+                <img src="../imagens/barbeiro-orelhudo-olhando-para-a-camera_251859-16957.avif" alt="Foto Barbeiro">
+                <span class="avalicao">★ 5.0</span>
+            </div>
+
+            <div class="barbeiro__informacoes">
+                <p class="explorarbarbeiro__cidade"></p>
+
+                <h3>Carlos Silva</h3>
+                <span class="barbearia__loja">Barbearia Elite</span>
+
+                <p classe="desc">
+                    Especialsita em degradê e cortes modernos.
+                </p>
+            </div>
+
+            <div class="barbeiro__tags">
+                <span>Fade</span>
+                <span>Degradê</span>
+                <span>Navalhado</span>
+            </div>
+
+            <div class="barbeiro__status">
+                <span>💗 1240</span>
+                <span>👁 8500</span>
+                <span>⭐ 420</span>
+            </div>
+
+            <button class="barbeiro--portfolio__botao">Ver Portfólio</button>
+        </article>
+
+        <!--Card 2 (Copiar e colar primeiro card, apenas mudar imagem do barbeiro e informações.)-->
+
+        <article class="barbeiro__card">
+            <div class="barbeiro__imagem">
+                <img src="../imagens/b1aa73786a14bf19fb208dfbf90488e5.jpg" alt="Foto Barbeiro">
+                <span class="avalicao">★ 5.0</span>
+            </div>
+
+            <div class="barbeiro__informacoes">
+                <p class="explorarbarbeiro__cidade"></p>
+
+                <h3>Pedro Alburqueque</h3>
+                <span class="barbearia__loja">Barber's alber</span>
+
+                <p classe="desc">
+                    Especialsita em degradê e pigmentação.
+                </p>
+            </div>
+
+            <div class="barbeiro__tags">
+                <span>Low Fade</span>
+                <span>Degradê</span>
+                <span>Pigmentação</span>
+            </div>
+
+            <div class="barbeiro__status">
+                <span>💗 1690</span>
+                <span>👁 10530</span>
+                <span>⭐ 610</span>
+            </div>
+
+            <button class="barbeiro--portfolio__botao">Ver Portfólio</button>
+        </article>
+
+        <!--Card 3-->
+        <article class="barbeiro__card">
+            <div class="barbeiro__imagem">
+                <img src="../imagens/muriloaloalobahia.jpg" alt="Foto Barbeiro">
+                <span class="avalicao">★ 5.0</span>
+            </div>
+
+            <div class="barbeiro__informacoes">
+                <p class="explorarbarbeiro__cidade"></p>
+
+                <h3>Augusto Flávio</h3>
+                <span class="barbearia__loja">The Barbers</span>
+
+                <p classe="desc">
+                    Especialsita em Hidratação e Corte Sociaç
+                </p>
+            </div>
+
+            <div class="barbeiro__tags">
+                <span>Social</span>
+                <span>Degradê</span>
+                <span>Hidratação</span>
+            </div>
+
+            <div class="barbeiro__status">
+                <span>💗 1110</span>
+                <span>👁 7920</span>
+                <span>⭐ 392</span>
+            </div>
+
+            <button class="barbeiro--portfolio__botao">Ver Portfólio</button>
+        </article>
+
+    </section>
     <script src="explorarbarb-interacao.js"></script>
 </body>
 </html>

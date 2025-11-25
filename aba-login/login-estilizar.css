@@ -28,9 +28,6 @@ body {
     font-size: 20px;
     font-weight: 600;
     color: #ffcc59;
-    display: flex;
-    align-items: center;
-    gap: 8px;
 }
 
 .nav__links {
@@ -75,18 +72,19 @@ body {
 
 /* ======== ÁREA DO LOGIN ======== */
 .area__login {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 55% 45%;
-    padding: 60px 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 80px 60px;
     position: relative;
 }
 
-/* ------ IMAGEM À ESQUERDA ------ */
+/* ------- IMAGEM À ESQUERDA COM TEXTO ------- */
 .lado__imagem {
-    width: 100%;
-    height: 500px;
     position: relative;
+    width: 420px;
+    height: 520px;
 }
 
 .lado__imagem img {
@@ -94,49 +92,47 @@ body {
     height: 100%;
     object-fit: cover;
     border-radius: 12px;
-    filter: brightness(70%);
+    filter: brightness(65%);
 }
 
-/* ------ TEXTO DENTRO DA IMAGEM ------ */
 .texto-lado__imagem {
     position: absolute;
-    bottom: 50px;
-    left: 50px;
-    width: 75%;
+    bottom: 30px;
+    left: 35px;
+    width: 80%;
+    z-index: 2;
 }
 
 .texto-lado__imagem h2 {
-    font-size: 38px;
+    font-size: 26px;
     font-weight: 600;
+    line-height: 1.3;
 }
 
-.texto-lado__imagem h2 span {
+.texto-lado__imagem span {
     color: #ffcc59;
 }
 
 .texto-lado__imagem p {
-    margin-top: 10px;
-    font-size: 16px;
+    font-size: 14px;
+    margin-top: 8px;
+    opacity: 0.9;
 }
 
-/* ======== CARD DE LOGIN ======== */
+/* ------- CARD DE LOGIN À DIREITA ------- */
 form {
     background: #1a1a1a;
-    padding: 50px;
+    padding: 40px;
     border-radius: 12px;
-    width: 90%;
-    margin-left: 40px;
+    width: 380px;
 }
 
 .login__titulo h2 {
-    font-size: 32px;
-    margin-left: 40px;
-    margin-bottom: -20px;
-    margin-top: 10px;
+    font-size: 24px;
+    margin-bottom: -10px;
 }
 
 .login__subtitulo p {
-    margin-left: 40px;
     color: #bbb;
     margin-bottom: 20px;
 }

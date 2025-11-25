@@ -1,0 +1,169 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(28, 28, 28, 0.589);
+}
+
+
+.h1{
+    text-align: center;
+    font-size: 3rem;
+    color: #ffff44;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    }
+
+.comoFunciona {
+      
+
+    padding: 35px;
+    margin: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    border-bottom: 5px solid #dce22e;
+    color: #0c0e0c;
+    
+  
+}
+.digital{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #000000;
+}
+
+.incluir {
+    padding: 35px;
+    margin: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    border-bottom: 5px solid #f3de57;
+   color: #0c0c0c;
+    
+
+}
+.diferenca {
+    padding: 35px;
+    margin: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+     border-bottom: 5px solid #dce22e;
+   color: #0f0f0f;
+   
+   
+}
+
+    
+   
+h2{
+    text-align: center;
+    font-size: 3rem;
+    color: #d0f51b;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+ .comoFunciona, .incluir, .diferenca {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            margin: 15px;
+           
+           
+        }
+        .comoFunciona div, .incluir div, .diferenca div {
+            width: 50%;
+            background-color: #fffefe;
+            padding: 20px;
+            border-radius: 8px;
+            color: #d9dec7;
+            font-size: medium;
+            
+        }
+      
+        
+        .highlight-text {
+            
+            background-color: #f5f9f9;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .imgfisico {
+  display: block;
+   
+    width: 50%;
+    margin-top: 1px;
+    margin-bottom: 5px;
+    margin-right: 1000px;
+  display: flex;
+            justify-content: space-between;
+}
+
+
+
+   
+
+
+.TiposdePortifolio {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+    font-family: Arial, sans-serif;
+}
+
+/* Contêiner que coloca texto e imagem lado a lado */
+.flex {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+/* Texto */
+.flex .texto {
+    flex: 1; 
+    background: #eeecec;
+    padding: 50px 100px;
+    border-left: 5px solid #4a74f5;
+    border-radius: 6px;
+    font-size: 25px;
+}
+
+.flex .img {
+    width: 100%;
+    max-width: 450px; /* ⬅️ Aumentei aqui (antes era 320px) */
+    height: auto;
+    border-radius: 8x;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 768px) {
+    .flex {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .flex .img {
+        width: 80%;
+        margin: 10px auto;
+    }
+}
+
+.footer_section {
+    background-color: #222;
+    color: #deff4a;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+}

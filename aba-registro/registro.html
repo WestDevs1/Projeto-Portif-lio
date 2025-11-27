@@ -4,9 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login BarberHub</title>
-    <a href="../area-principal/Esqueleto.html">Voltar</a>
-    <link rel="stylesheet" href="login-estilizar.css">
-    <!-- Adicione isso dentro da tag <head> do seu HTML -->
+    <link rel="stylesheet" href="registro-estlizar.css">
 
 </head>
 <body>
@@ -39,37 +37,69 @@
             <p>Crie seu portfólio profissional e seja descoberto por milhares de clientes</p>
         </div>
         </div>
-
+    <!--Preencher cadastro-->
         <form>
 
         <div class="login__titulo">
-            <h2>Bem-vindo de volta!</h2>
+            <h2>Criar conta</h2>
         </div>
 
         <div class="login__subtitulo">
-            <p>Entre na sua conta</p>
+            <p>Preencha os dados para começar</p>
         </div>
-        
-        
-            <div class="input-email__login">
+         
+        <!--Nome-->
+            <div class="campo__preencher">
+                <label for="name">Seu nome completo:</label>
+                <input 
+                id="name"
+                name="name"
+                type="text"
+                placeholder="Seu nome"
+                required
+                >
+            </div>
+        <!--Nome barbearia-->
+            <div class="campo__preencher">
+                <label for="barbearia">Nome da sua barbearia:</label>
+                <input 
+                id="barbearia"
+                name="barbearia"
+                type="text"
+                placeholder="Nome da sua barbearia"
+                required
+                >
+            </div>
+        <!--Cidade-->
+            <div class="campo__preencher">
+                <label for="cidade">Cidade:</label>
+                <input
+                id="cidade__barbearia"
+                name="cidade"
+                type="text"
+                placeholder="Sua cidade"
+                required
+                >
+            </div>
+            
+        <!--Email-->
+            <div class="campo__preencher">
                 <label for="email">Email:</label>
                 <input 
                 id="email"
-                nome="email"
+                name="email"
                 type="email"
-                class="input-email__login"
                 placeholder="Seu melhor email"
                 required
                 >
             </div>
-
-            <div class="input-senha__login">
+        <!--Senha-->
+            <div class="campo__preencher">
                 <label for="senha">Senha:</label>
                 <input
                 id="senha"
                 name="senha"
                 type="password"
-                class="input-senha__login"
                 placeholder="Crie uma senha"
                 required
                 minlength="5"
@@ -77,14 +107,23 @@
                 title="Sua senha deve ter no minímo 5 caracteres, uma letra maíuscula e um número."
                 >
             </div>
+        <!--Descrição/bio-->
+            <div class="campo__preencher">
+                <label for="descricao">Bio/Descrição</label>
+                <textarea
+                id="descricao"
+                name="descricao"
+                placeholder="Conte um pouco sobre você e sua experiência..."
+                required
+                ></textarea>
+            </div>
 
             <div class="btn-entrar__login">
-                <button>Entrar</button>
+                <button type="submit">Entrar</button>
             </div>
 
-            <div>
-                <a href="../aba-registro/registro.html" class="caminho-registro__cadastro">Não tem uma conta? Criar uma agora</a>
-            </div>
+            <a href="../aba-login/login.html" class="caminho-login__cadastro">Já tem uma conta? Fazer login</a>
+
 
         </form>
     </section>
@@ -114,5 +153,5 @@
         <p class="footer__copy">© 2024 BarberHub. Todos os direitos reservados.</p>
     </footer>
 </body>
-<script src="login-interacao.js"></script>
+<script src="registro-intercao.js"></script>
 </html>

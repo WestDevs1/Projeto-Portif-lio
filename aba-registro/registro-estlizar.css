@@ -1,0 +1,242 @@
+/* RESET / BASE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #0d0d0d;
+    color: #fff;
+}
+
+/* --------------------------------------------- */
+/* NAVBAR */
+/* --------------------------------------------- */
+
+.header {
+    width: 100%;
+    background: #000;
+    padding: 20px 60px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_logo h2 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #ffcc59;
+}
+
+.nav__links {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.nav__link:hover {
+    color: #caa24a;
+}
+
+.nav_actions a {
+    margin-left: 20px;
+    padding: 10px 22px;
+    border-radius: 8px;
+    font-size: 14px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav__login {
+    color: #fff;
+}
+
+.nav_signup {
+    background: #caa24a;
+    color: #000;
+    font-weight: 600;
+}
+
+.nav_signup:hover {
+    background: #e4c46a;
+}
+
+/* --------------------------------------------- */
+/* IMAGEM + FORM */
+/* --------------------------------------------- */
+
+.area__login {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 70px;
+    padding: 80px 60px;
+}
+
+/* IMAGEM */
+.lado__imagem {
+    position: relative;
+    width: 430px;
+    height: 550px;
+}
+
+.lado__imagem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 14px;
+    filter: brightness(70%);
+}
+
+.texto-lado__imagem {
+    position: absolute;
+    bottom: 30px;
+    left: 35px;
+    width: 80%;
+}
+
+.texto-lado__imagem h2 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.texto-lado__imagem span {
+    color: #ffcc59;
+}
+
+/* --------------------------------------------- */
+/* FORM */
+/* --------------------------------------------- */
+
+form {
+    background: #1a1a1a;
+    padding: 40px;
+    border-radius: 12px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login__titulo h2 {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.login__subtitulo p {
+    color: #bbb;
+    margin: 6px 0 25px 0;
+    font-size: 14px;
+}
+
+.campo__preencher {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+}
+
+label {
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: #ddd;
+}
+
+input,
+textarea {
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #222;
+    outline: none;
+    background: #0f0f0f;
+    color: #fff;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+input:hover,
+input:focus,
+textarea:hover,
+textarea:focus {
+    border-color: #caa24a;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 90px;
+}
+
+/* BOTÃO */
+.btn-entrar__login button {
+    width: 100%;
+    padding: 14px;
+    background: #caa24a;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-entrar__login button:hover {
+    background: #e4c46a;
+}
+
+/* LINK */
+.caminho-login__cadastro {
+    display: block;
+    text-align: center;
+    margin-top: 18px;
+    color: #caa24a;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.caminho-login__cadastro:hover {
+    text-decoration: underline;
+}
+
+/* --------------------------------------------- */
+/* FOOTER */
+/* --------------------------------------------- */
+
+.footer {
+    margin-top: 80px;
+    padding: 50px 80px;
+    background: #000;
+    color: #ccc;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-top: 1px solid #222;
+}
+
+.footer-section {
+    max-width: 250px;
+}
+
+.footer__titulo {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #ffcc59;
+}
+
+.footer__copy {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    color: #777;
+    font-size: 14px;
+}
